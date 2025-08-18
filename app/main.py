@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.logging.logger import logger
+from app.utils.logger import logger
 from app.routes import health
 
 app = FastAPI()
